@@ -41,6 +41,7 @@ let myMap = L.map("map", {
   
     // Legend added to the map sorted by grading levels; it doesn't seem to display as it should using the live server
     // Will publish on github to maybe correct color legend display
+    // Fixed legend configs and they should display as needed on the Live Server and published github :)
     let legend = L.control({ position: "bottomright" });
   
     legend.onAdd = function() {
